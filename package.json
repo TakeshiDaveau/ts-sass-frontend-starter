@@ -4,7 +4,9 @@
   "description": "Mini game where the player needs to draw a shape as clos as possible as a reference shape.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "circular-dependencies": "npx madge --circular --extensions ts ./projects/admin",
+    "stylelint": "stylelint 'src/styles/**/*.scss'"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,18 @@
   },
   "homepage": "https://github.com/TakeshiDaveau/draw-parfect#readme",
   "dependencies": {
-    "curve-matcher": "^1.1.1",
+    "curve-matcher": "^1.1.1"
+  },
+  "devDependencies": {
     "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "madge": "^3.7.0",
     "prettier": "^1.19.1",
+    "sass": "^1.26.2",
+    "sass-mq": "^5.0.1",
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.14.2",
     "typescript": "^3.8.3"
   }
 }
