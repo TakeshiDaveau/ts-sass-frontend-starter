@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "circular-dependencies": "npx madge --circular --extensions ts ./projects/admin",
+    "circular-dependencies": "npx madge --circular --extensions ts ./src",
     "lint": "run-p lint:eslint lint:stylelint",
     "lint:eslint": "eslint --cache --ext .js,.ts --format=pretty ./",
     "lint:stylelint": "stylelint 'src/styles/**/*.scss'"
