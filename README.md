@@ -1,8 +1,7 @@
-# draw-parfect
+# Typescript & Sass front starter
 
 
-Mini game where the player needs to draw a shape as clos as possible as a reference shape.
-
+Starter for simple front end project
 
 ## Running
 
